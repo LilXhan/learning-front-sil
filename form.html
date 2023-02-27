@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>User Registration</h1>
+  <form action=""> <!--Default: method='GET' -->
+    <p>
+      <label>Name:</label>
+      <input name="full_name" type="text" placeholder="name"/>
+    </p>
+    <p>
+      <label>Last Name:</label>
+      <input name="sur_name" type="text" placeholder=" surnames"/>
+    </p>
+    <p>
+      <input name="sex" type="radio" checked/> Male
+      <input name="sex" type="radio"/> Female
+    </p>
+    <p>
+      <label>Email:</label>
+      <input name="email" type="email" placeholder="email"/>
+    </p>
+    <p>
+      <input name="extra-information" type="checkbox" checked/> I want to receive extra information about news and offers 
+    </p>
+    <p>
+      <input name="conditions" type="checkbox" checked/> I declared that i have read and accepted the general conditions of the program
+    </p>
+    <p>
+      <select name="cities">
+        <option value="Lima">Lima</option>
+        <option value="Arequipa">Arequipa</option>
+        <option value="Huanuco">Huánuco</option>
+      </select>
+    </p>
+    <p>
+      <textarea name="description" cols="50" rows="10" placeholder="Description">
+Hi, my name is Flavio
+      </textarea>
+    </p>
+    <p>
+      <button type="submit">Send</button>
+    </p>
+  </form>
+</body>
+</html>
